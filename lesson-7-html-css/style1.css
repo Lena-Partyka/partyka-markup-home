@@ -1,0 +1,56 @@
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+h1 {
+    color: orange;
+    text-align: right;
+}
+
+p > em {
+    color: white;
+    background-color: green;
+}
+
+span {
+    font-weight: bold;
+}
+
+h2 {
+    color: orange;
+    text-align: left;
+}
+
+table tr td {
+    border: 2px solid black;
+}
+
+
+tbody td {
+    text-align: center;
+}
+/*
+td:nth-child(5n+1) {
+    color: orange;
+    text-align: left;
+    font-weight: bold;
+}*/
+td[rowspan] {
+    font-weight: bold;
+}
+
+td[colspan] {
+    font-weight: bold;
+    background-color: white;
+}
+
+/*table {
+    background-color: green;*/
+
+
+
+
+
+
+
