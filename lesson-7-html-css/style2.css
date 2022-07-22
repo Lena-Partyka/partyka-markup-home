@@ -1,0 +1,35 @@
+
+a[href$="авная"] {
+    color: #f70;
+}
+
+a[href$="ти"] {
+    color: #f70;
+}
+
+a[href*="google"] {
+   color: #666;
+    }
+
+a[href*="yandex"] {
+    color: orange;
+}
+img {
+    width: 10px;
+    height: 10px;
+    border-style: solid solid none none;
+    float: right;
+}
+/*картинка в виде ссылки "убежала" в право,
+задала длину строки через div и width, но не знаю,
+как будет отображаться в зависимости от диогонали экрана*/
+ */
+
+ */
+ul {;
+
+}
+
+div {
+    width: 122px;
+}
