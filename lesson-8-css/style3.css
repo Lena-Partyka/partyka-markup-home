@@ -1,0 +1,16 @@
+table {
+    border: 1px solid lightblue;
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid lightblue;
+}
+td {
+    padding: 2px 10px;
+}
+tr:nth-child(even) {
+    background-color: #DDEAF7;
+}
+td:nth-child(2n+3) {
+    background-color: #F1F2DD;
+}
