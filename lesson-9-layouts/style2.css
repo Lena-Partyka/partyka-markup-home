@@ -1,0 +1,29 @@
+.page {
+    display: inline-block;
+    background-color: #FAFAFA;
+    }
+.page a {
+    font-family: Verdana;
+    color: #A03CD1;
+    font-size: 9px;
+    float: left;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    margin: 0 3px;
+    }
+.page a:hover {
+    background-color: #A03CD1;
+    color: white;
+    }
+.page a:nth-child(-n+2) {
+    border: none;
+    }
+.page a:nth-child(n+10) {
+    border: none;
+    }
+.page a:nth-child(5) {
+    border: none;
+    color: gray;
+    }
