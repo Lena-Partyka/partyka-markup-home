@@ -1,0 +1,45 @@
+div {
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+    }
+input {
+    opacity: 0;
+    }
+label {
+    text-decoration-line: underline;
+    }
+label[for="red"] {
+    color: #FF0000;
+    }
+label[for="green"] {
+    color: #008100;
+    }
+label[for="blue"] {
+    color: #2000FF;
+    }
+span {
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 12px;
+    }
+span.red {
+    background-color: #FF0000;
+    }
+span.green {
+    background-color: #008100;
+    }
+span {
+    background-color: #2000FF;
+    }
+#red:checked ~ .red {
+    display: none;
+    }
+
+#green:checked ~ .green {
+    display: none;
+    }
+#blue:checked ~ .blue {
+    display: none;
+    }
