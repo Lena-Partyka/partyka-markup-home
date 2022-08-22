@@ -1,0 +1,44 @@
+/* Write your code here */
+.customers {
+	margin: 100px 0 0;
+	display: inline-block;
+}
+.statham, .mellow {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+.statham__photo, .mellow__photo {
+	width: 550px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.statham__photo img, .mellow__photo img {
+	width: 100%;
+	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+	display: inline-block;
+}
+.statham__overview, .mellow__overview {
+	margin: 0 0 0 30px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+.mellow__overview {
+	text-align: left;
+}
+h3 {
+	color: #CF4432;
+}
+h3, h6, p {
+	margin: 0;
+}
+h6, a {
+	color: gray;
+}
+a {
+	text-decoration: none;
+}
+.main-footer {
+	margin: 0;
+}

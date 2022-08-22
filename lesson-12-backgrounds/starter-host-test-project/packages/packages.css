@@ -1,0 +1,55 @@
+.main {
+	background: url(/Users/alexpart/git/partyka-markup-home/lesson-12-backgrounds/starter-host-test-project/images/plans-background.jpg) no-repeat border-box;
+	background-size: 100% 100%;
+	width: 100%;
+}
+#plus, #free, #premium {
+	border: solid #886E6C;
+	width: 80%;
+}
+#free {
+	float: right;
+	text-align: right;
+}
+#plus, #premium {
+	float: left;
+	position: relative;
+}
+span {
+	position: absolute;
+	left: 82%;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 10px;
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+}
+#plus, #free {
+	background-color: rgb(178,177,175, 0.9);
+}
+#premium {
+	background-color: rgba(151,118,113, 0.9);
+	color: white;
+}
+section {
+	padding: 20px 10px 10px;
+	margin: 20px 0 20px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+p {
+	margin: 30px 20px;
+	padding: 10px;
+	background-color: white;
+	color: gray;
+}
+h1, h2 {
+	margin: 10px 20px;
+}
+.clear {
+	clear: both;
+}
+
