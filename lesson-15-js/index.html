@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ANKETA</title>
+</head>
+<body>
+	<script>
+		confirm('Заполните, пожалуйста, анкету.');
+		var lastName = prompt('Ваша фамилия ?');
+    var firstName = prompt('Ваше имя ?');
+    var surName = prompt('Ваше отчество ?');
+    var age = prompt('Ваш возраст ?');
+    var gender = confirm('Ваш пол - мужской ? Если да - ОК, если нет - Отменить');
+    var fullName = lastName + ' ' + firstName + ' ' + surName;
+    var ageDays = age*365;
+    var ageIn5Year = age+5;
+    var pension;
+    var message = (gender === true) ? 'Ваш пол: мужской' : 'Ваш пол: женский';
+
+    if ((gender === false && age >= 58) || (gender === true && age >= 63)) {
+        pension = 'Вы на пенсии';
+    } else {
+        pension = 'Вы не пенсионер';
+    }
+
+		alert('Ваше имя: ' + fullName + '\n' + 'Ваш возраст в годах: ' + age + '\n' + 'Ваш возраст в днях: ' + ageDays + '\n'
+				+ 'Через 5 лет Вам будет: ' + ageIn5Year + '\n'+ message + '\n' + pension);
+	</script>
+</body>
+</html>
