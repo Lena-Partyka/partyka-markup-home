@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<script>
+		'use strict';
+
+		var x = prompt('Введите значение x (положительное число):', '');
+		var n = prompt('Введите значение n (положительное число):', '');
+
+		function pow(x, n) {
+		  var value = x;
+
+		  for (var i = 1; i < n; i++) {
+		      value *= x;
+		  }
+
+		  return value;
+		}
+
+	  alert(pow(x, n))
+
+	</script>
+</body>
+</html>
