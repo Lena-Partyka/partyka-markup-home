@@ -1,0 +1,50 @@
+h1 {
+    color: orange;
+    text-align: right;
+    }
+em {
+    color: white;
+    background-color: green;
+    }
+p::first-letter {
+    color: red;
+    font-size: 30px;
+    }
+h2 {
+    color: blue;
+    }
+p + h2 {
+    color: orange;
+    }
+span {
+    font-weight: bold;
+    }
+ol > li {
+    color: red;
+    }
+li.gray {
+    color: gray;
+    }
+li.green {
+    color: green;
+    }
+table tr td {
+    border: 1px solid black;
+    text-align: center;
+    }
+tr:first-of-type {
+    font-weight: bold;
+    color: black;
+    }
+tr:nth-child(2) {
+    font-weight: bold;
+    color: black;
+    }
+tr:nth-child(n+3) td:nth-child(n+2){
+    color: white;
+    background-color: green;
+    }
+tr:nth-child(n+3) td:nth-child(1){
+    color: orange;
+   text-align: left;
+    }
