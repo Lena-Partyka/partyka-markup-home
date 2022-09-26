@@ -1,80 +1,89 @@
 body {
-	margin: 0 auto;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Open sans", Arial, sans-serif;
+		background: black;
 }
 
-.title {
-	background-color: black;
-	margin: 0 auto;
-	padding: 30px 0 10px 0;
-	font-size: 40px;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
-	color: #3270A8;
+.container {
+		width: 80%;
+		margin: 0 auto;
+		padding: 0;
+		font-family: "Open Sans", Arial, sans-serif;
+		font-weight: 400;
+		cursor: default;
 }
 
-span {
-	color: #EE8129;
+.container:after {
+		content: "";
+		display: table;
+		clear: both;
 }
 
-img {
-	margin: 0 1px 0 18px;
-	vertical-align: middle;
-	width: 100px;
-	height: 100px;
+.fl {
+		float: left;
 }
 
-.wrap {
-	background-color: black;
-	font-size: 10px;
-	margin: 0 auto;
-	padding: 40px;
-	border: 1px solid;
+.fr {
+		float: right;
 }
 
-img, .triangle, table {
-	float: left;
+.testimonials-block-header {
+		font-size: 36px;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-align: center;
+		color: #ed7f2b;
 }
 
-.triangle {
-	margin: 40px 0;
-	width: 1px;
-	border: 12px solid;
-	border-color: transparent white transparent transparent;
+.testimonials-block-header span {
+		color: #3270a6;
 }
 
-table {
-	background-color: white;
-	margin: 0 36px 0 0;
-	padding: 10px;
-	height: 100px;
-	width: 360px;
-	font-size: 13px;
-	font-weight: 400;
+.half-page-desktop {
+		width: 50%;
 }
 
-td {
-	color: #598BB8;
-	font-style: italic;
-	border-style: none none dotted none;
+.testimonials-block-item {
+		padding: 15px;
 }
 
-td[colspan]{
-	border-style: none;
-	color: #7F7F7F;
-	font-style: normal;
+.testimonials-block-image img {
+		width: 100px;
+		height: 100px;
 }
 
-td:nth-child(even) {
-	text-align: right;
+.testimonials-block-content {
+		position: relative;
+		padding: 5px 15px 3px 15px;
+		margin-left: 125px;
+		background: white;
 }
 
-.clear {
-	clear: both;
+.testimonials-block-content:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		margin-top: -15px;
+		margin-left: -30px;
+		border: 15px solid transparent;
+		border-right: 15px solid white;
 }
 
+.testimonials-block-title {
+		border-bottom: 2px dotted #666;
+		font-style: italic;
+		font-size: 13px;
+		font-weight: 600;
+		line-height: 30px;
+		color: #3270a6;
+}
 
+.testimonials-block-client-name:before {
+		content: "\002d";
+		margin-right: 3px;
+}
 
+.testimonials-block-description {
+		margin: 10px 0 15px;
+		font-size: 13px;
+		color: #917e91;
+}
